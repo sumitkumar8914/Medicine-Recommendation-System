@@ -1,0 +1,100 @@
+/* Navbar Logo */
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-top: 0;
+    margin-left: 2px;
+}
+
+.myimg {
+    width: 50px;
+    height: 50px;
+    border: 2px solid green;
+    border-radius: 25px;
+}
+
+/* Form Container */
+.form-container {
+    background:rgb(166, 213, 245) ;
+    color: black;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+/* Speech Recognition Button */
+.speech-btn {
+    margin-left: 3px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+/* Predict Button */
+.predict-btn {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 5px;
+}
+
+/* Toggle Buttons Styling */
+.result-container .toggle-button {
+    padding: 4px;
+    margin: 5px 40px 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+    width: 140px;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 2px 2px 15px black; 
+    transition : margin-top 2s ease in out 0.2s;
+}
+
+.result-container .toggle-button:nth-child(1) { background: #335e90; }
+.result-container .toggle-button:nth-child(2) { background: #87c6ec; }
+.result-container .toggle-button:nth-child(3) { background: #335e90; }
+.result-container .toggle-button:nth-child(4) { background: #87c6ec; }
+.result-container .toggle-button:nth-child(5) { background: #335e90; }
+.result-container .toggle-button:nth-child(6) { background: #87c6ec; }
+
+/* Modal Header Custom */
+.modal-header-custom {
+    background-color: black;
+    color: white;
+}
+.header-container {
+    display: flex;
+    align-items: center;   /* Vertically center image and text */
+    justify-content: center;  /* Center the whole block */
+    gap: 15px;  /* Space between image and text */
+}
+
+.stethoscope {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+
+.medical {
+    width: 50px;
+    height: 50px;
+    border: 2px solid green;
+    border-radius: 25px;
+}
+h1{
+    color: green;
+}
+.container-fluid{
+    color: #335e90;
+}
+.custom-navbar {
+    background-color: #335e90;
+}
+.custom-predict-btn {
+    background-color: green;  /* Green shade */
+    color: white;               /* Text color */
+    border: none;
+}
+.custom-speech-btn {
+    background-color: #335e90;  /* Green */
+    color: white;              /* Text Color */
+    border: none;
+}
